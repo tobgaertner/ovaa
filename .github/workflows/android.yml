@@ -28,6 +28,6 @@ jobs:
       uses: trufflesecurity/trufflehog@main
       with:
         path: https://github.com/tobgaertner/ovaa
-        base: master
+        base: "master"
 
 
