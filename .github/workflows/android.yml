@@ -28,7 +28,7 @@ jobs:
       uses: trufflesecurity/trufflehog@main
       with:
         path: https://github.com/tobgaertner/ovaa/
-        base: main
+        base: master
         head: # optional
         # Extra args to be passed to the trufflehog cli.
         extra_args: # optional
