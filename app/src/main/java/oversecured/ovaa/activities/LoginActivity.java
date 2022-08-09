@@ -56,7 +56,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void processLogin(String email, String password) {
-        //LoginData loginData = new LoginData(email, password);
+        LoginData loginData = new LoginData(email, password);
         //Log.d("ovaa", "Processing " + loginData);
 
         LoginService loginService = RetrofitInstance.getInstance().create(LoginService.class);
