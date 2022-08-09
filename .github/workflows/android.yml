@@ -27,7 +27,7 @@ jobs:
     - name: TruffleHog OSS
       uses: trufflesecurity/trufflehog@main
       with:
-        path: https://github.com/tobgaertner/ovaa/
+        path: https://github.com/tobgaertner/ovaa
         base: master
 
 
