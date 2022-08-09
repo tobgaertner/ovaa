@@ -26,12 +26,9 @@ jobs:
       run: ./gradlew build
     - name: TruffleHog OSS
       uses: trufflesecurity/trufflehog@main
-        with:
-        # Repository path
+      with:
         path: https://github.com/tobgaertner/ovaa/
-        # Start scanning from here (usually main branch).
         base: main
-        # Scan commits until here (usually dev branch).
         head: # optional
         # Extra args to be passed to the trufflehog cli.
         extra_args: # optional
